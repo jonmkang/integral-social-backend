@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS integral_user
+CASCADE;

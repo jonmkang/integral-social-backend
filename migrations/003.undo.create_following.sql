@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS followed_users
+CASCADE;
