@@ -17,6 +17,10 @@ Create .env file in the main path folder and add `DATABASE_URL="postgresql://use
 
 From here, you can run `npm run migrate`, and it will create tables inside the database you created.
 
+To install test databases, `psql CREATE DATABASE database_name_test`.
+Add `TEST_DATABASE_URL="postgresql://username@localhost/database_name_test` to .env.
+From here, run `npm run migrate:test` and it will create test tables inside of the test database.
+
 This finishes the set up of the database on the local server.
 
 ## Scripts
